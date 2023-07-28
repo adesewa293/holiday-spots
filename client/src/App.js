@@ -6,7 +6,7 @@ function App() {
   const [getSpot, setGetSpot] = useState([]);
 
   async function handleHolidaySpot() {
-    const API = "http://localhost:8090/getholidayspot";
+    const API = "https://holiday-spots-api.onrender.com/getholidayspot";
     const res = await axios.get(API);
     
     setGetSpot(res.data);
