@@ -33,11 +33,3 @@ function App() {
 
 export default App;
 
-{
-  /* <button onClick={handleHolidaySpot}>Pick one of Chris' favorite holiday spots!</button>
-      <div> 
-      <p>{getSpot.name}</p>
-      <p>{getSpot.description}</p>
-      <img src={getSpot.image} alt="location" />
-      </div> */
-}
